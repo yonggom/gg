@@ -1,7 +1,11 @@
 package gitProject;
 
+import part1.ClassOne;
+import part2.ClassTwo;
+
 public class FirstTest {
 	public static void main(String[] args) {
-		System.out.println("Hello, Git!");
+		ClassOne co = new ClassOne();
+		ClassTwo ct = new ClassTwo();
 	}
 }
